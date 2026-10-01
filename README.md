@@ -12,17 +12,17 @@
 npx skills add https://github.com/ifyour/gefei-seo-skill --skill gefei-seo
 ```
 
-或手动安装：克隆本仓库，把整个目录放入你的 skills 目录（`~/.agents/skills/`、`~/.claude/skills/`、项目内 `.claude/skills/` 等均可）。
+或手动安装：克隆本仓库，把 `gefei-seo/` 目录放入你的 skills 目录（`~/.agents/skills/`、`~/.claude/skills/`、项目内 `.claude/skills/` 等均可）。
 
 ## 知识结构
 
 | 文件 | 内容 |
 |---|---|
-| `SKILL.md` | 核心框架 + 章节/主题索引（入口） |
-| `chapters/` | 22 个章节提炼，按需加载 |
-| `glossary.md` | 关键术语表 |
-| `patterns.md` | 11 个可复用模式 |
-| `cheatsheet.md` | 决策速查（决策规则 / 硬数字 / 决策树） |
+| `gefei-seo/SKILL.md` | 核心框架 + 章节/主题索引（入口） |
+| `gefei-seo/chapters/` | 22 个章节提炼，按需加载 |
+| `gefei-seo/glossary.md` | 关键术语表 |
+| `gefei-seo/patterns.md` | 11 个可复用模式 |
+| `gefei-seo/cheatsheet.md` | 决策速查（决策规则 / 硬数字 / 决策树） |
 
 ## 怎么用
 
