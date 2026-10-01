@@ -37,7 +37,7 @@
 
   <!-- ===== right: KGR decision card (real project material) ===== -->
   <g transform="translate(664 56)">
-    <rect width="472" height="288" rx="16" fill="#161D2A" stroke="#243044" stroke-width="1.5"/>
+    <rect width="472" height="306" rx="16" fill="#161D2A" stroke="#243044" stroke-width="1.5"/>
 
     <!-- search bar motif -->
     <rect x="28" y="28" width="414" height="44" rx="22" fill="#10151F" stroke="#2C3950" stroke-width="1.5"/>
