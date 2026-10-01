@@ -14,10 +14,6 @@ npx skills add https://github.com/ifyour/gefei-seo-skill --skill gefei-seo
 
 或手动安装：克隆本仓库，把整个目录放入你的 skills 目录（`~/.agents/skills/`、`~/.claude/skills/`、项目内 `.claude/skills/` 等均可）。
 
-<p align="center">
-  <img src="./assets/readme/section-structure.svg" width="100%" alt="知识结构章节标题">
-</p>
-
 ## 知识结构
 
 | 文件 | 内容 |
@@ -27,16 +23,6 @@ npx skills add https://github.com/ifyour/gefei-seo-skill --skill gefei-seo
 | `glossary.md` | 关键术语表 |
 | `patterns.md` | 11 个可复用模式 |
 | `cheatsheet.md` | 决策速查（决策规则 / 硬数字 / 决策树） |
-
-<p align="center">
-  <img src="./assets/readme/structure-diagram.svg" width="100%" alt="技能加载流程：SKILL.md 常驻核心框架，问题按主题路由到章节、模式与速查">
-</p>
-
-入口只放核心框架，章节按需加载 —— 省 agent 上下文，不省内容。
-
-<p align="center">
-  <img src="./assets/readme/section-usage.svg" width="100%" alt="怎么用章节标题">
-</p>
 
 ## 怎么用
 
@@ -54,10 +40,6 @@ npx skills add https://github.com/ifyour/gefei-seo-skill --skill gefei-seo
 新站前三个月外链该怎么发
 这个工具站适合做程序化 SEO 吗
 ```
-
-<p align="center">
-  <img src="./assets/readme/section-scenarios.svg" width="100%" alt="适用场景章节标题">
-</p>
 
 ## 适用场景
 

@@ -9,7 +9,6 @@
   <g clip-path="url(#round)">
     <rect width="1200" height="400" fill="#10151F"/>
     <!-- quiet baseline rules, subordinate -->
-    <line x1="56" y1="352" x2="620" y2="352" stroke="#222B3A" stroke-width="1"/>
   </g>
 
   <!-- ===== left: title block ===== -->
@@ -31,19 +30,9 @@
       关键词研究 · 页面与技术 SEO · 外链节奏 · 程序化 SEO · AI 搜索
     </text>
 
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#8B96A8">
-      <text x="0" y="238" fill="#4285F4">22</text><text x="24" y="238" fill="#C6CFDB">chapters</text>
-      <text x="130" y="238" fill="#F9AB00">·</text>
-      <text x="152" y="238" fill="#4285F4">11</text><text x="176" y="238" fill="#C6CFDB">patterns</text>
-      <text x="272" y="238" fill="#F9AB00">·</text>
-      <text x="294" y="238" fill="#4285F4">22</text><text x="318" y="238" fill="#C6CFDB">glossary</text>
-      <text x="414" y="238" fill="#F9AB00">·</text>
-      <text x="436" y="238" fill="#C6CFDB">MIT</text>
-    </g>
-
-    <!-- install cue, kept also in markdown -->
-    <rect x="0" y="272" width="418" height="44" rx="10" fill="#1A2230"/>
-    <text x="20" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#9FE0B0">npx skills add ifyour/gefei-seo-skill</text>
+    <text x="0" y="238" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="21" fill="#8B96A8">
+      安装命令见下方 README · 数据来源见文末
+    </text>
   </g>
 
   <!-- ===== right: KGR decision card (real project material) ===== -->
@@ -77,7 +66,6 @@
 
   <!-- motif echo: rank chip bottom right -->
   <g transform="translate(1100 366)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">
-    <text x="0" y="0" text-anchor="end" fill="#5C6779">数据来源见文末</text>
-    <text x="8" y="0" fill="#F9AB00">#1</text>
+    <text x="0" y="0" text-anchor="end" fill="#5C6779">22 chapters · 11 patterns · MIT</text>
   </g>
 </svg>
