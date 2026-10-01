@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="t d">
+  <title id="t">技能加载流程</title>
+  <desc id="d">SKILL.md 作为入口加载核心框架，按问题主题路由到 chapters 章节文件、patterns 模式与 cheatsheet 速查。</desc>
+
+  <rect width="1200" height="460" rx="20" fill="#10151F"/>
+
+  <!-- ===== left: entry ===== -->
+  <g transform="translate(64 60)">
+    <rect width="360" height="150" rx="16" fill="#161D2A" stroke="#4285F4" stroke-width="2"/>
+    <text x="24" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#8B96A8">入口 · SKILL.md</text>
+    <text x="24" y="86" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="25" font-weight="700" fill="#F2F5F9">核心框架常驻</text>
+    <text x="24" y="122" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="19" fill="#8B96A8">排名三句话 · KGR · 发布节奏</text>
+
+    <rect y="190" width="360" height="150" rx="16" fill="#161D2A" stroke="#243044" stroke-width="1.5"/>
+    <text x="24" y="234" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#8B96A8">你的问题</text>
+    <text x="24" y="276" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="24" fill="#C6CFDB">“新站外链怎么发？”</text>
+    <text x="24" y="312" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="19" fill="#8B96A8">自然语言，无需指令</text>
+  </g>
+
+  <!-- ===== flow lines ===== -->
+  <path d="M 470 330 C 560 330, 560 135, 640 135" fill="none" stroke="#2C3950" stroke-width="2"/>
+  <path d="M 470 240 C 545 240, 560 230, 640 230" fill="none" stroke="#4285F4" stroke-width="2"/>
+  <path d="M 470 240 C 560 240, 570 325, 640 325" fill="none" stroke="#2C3950" stroke-width="2"/>
+  <path d="M 470 240 C 560 240, 575 420, 640 420" fill="none" stroke="#2C3950" stroke-width="2"/>
+
+  <!-- ===== right: routed files ===== -->
+  <g transform="translate(640 60)">
+    <g>
+      <rect width="496" height="100" rx="16" fill="#161D2A" stroke="#243044" stroke-width="1.5"/>
+      <text x="24" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#4285F4">chapters/ch07-link-building.md</text>
+      <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="19" fill="#8B96A8">22 个章节按主题加载，其余不占上下文</text>
+    </g>
+    <g transform="translate(0 95)">
+      <rect width="496" height="100" rx="16" fill="#161D2A" stroke="#4285F4" stroke-width="2"/>
+      <text x="24" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#4285F4">patterns.md · 新站外链三阶段节奏</text>
+      <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="19" fill="#8B96A8">命中模式时给出步骤与权衡</text>
+    </g>
+    <g transform="translate(0 190)">
+      <rect width="496" height="100" rx="16" fill="#161D2A" stroke="#243044" stroke-width="1.5"/>
+      <text x="24" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#4285F4">cheatsheet.md · 硬数字</text>
+      <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="19" fill="#8B96A8">外链 $200–400/条 · 见效 3–6 月 · Title 50–60 字符</text>
+    </g>
+    <g transform="translate(0 285)">
+      <rect width="496" height="75" rx="16" fill="#161D2A" stroke="#243044" stroke-width="1.5"/>
+      <text x="24" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#4285F4">glossary.md</text>
+      <text x="24" y="64" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18" fill="#8B96A8">术语不确定时查定义</text>
+    </g>
+  </g>
+
+  <!-- bottom note -->
+  <text x="64" y="436" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#5C6779">路由顺序：入口框架先答 → 不够再读章节文件 → 命中模式/速查直接引用</text>
+</svg>

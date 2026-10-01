@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+  <title id="t">gefei-seo-skill — Google SEO 实战教程 Agent Skill</title>
+  <desc id="d">左侧为项目名与一句话价值，右侧为 KGR 关键词判断的真实决策卡片示例。</desc>
+
+  <defs>
+    <clipPath id="round"><rect width="1200" height="400" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="400" fill="#10151F"/>
+    <!-- quiet baseline rules, subordinate -->
+    <line x1="56" y1="352" x2="620" y2="352" stroke="#222B3A" stroke-width="1"/>
+  </g>
+
+  <!-- ===== left: title block ===== -->
+  <g transform="translate(64 66)">
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="3">
+      <text x="0" y="0" fill="#8B96A8">AGENT SKILL</text>
+      <text x="152" y="0" fill="#F9AB00">·</text>
+      <text x="176" y="0" fill="#8B96A8">GOOGLE SEO 实战教程</text>
+    </g>
+
+    <text x="0" y="78" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="64" font-weight="700" fill="#F2F5F9">
+      gefei<tspan fill="#4285F4">-</tspan>seo<tspan fill="#4285F4">-</tspan>skill
+    </text>
+
+    <text x="0" y="128" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="24" fill="#C6CFDB">
+      把哥飞的 SEO 实战经验，变成 agent 可调用的知识库
+    </text>
+    <text x="0" y="166" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="21" fill="#8B96A8">
+      关键词研究 · 页面与技术 SEO · 外链节奏 · 程序化 SEO · AI 搜索
+    </text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#8B96A8">
+      <text x="0" y="238" fill="#4285F4">22</text><text x="24" y="238" fill="#C6CFDB">chapters</text>
+      <text x="130" y="238" fill="#F9AB00">·</text>
+      <text x="152" y="238" fill="#4285F4">11</text><text x="176" y="238" fill="#C6CFDB">patterns</text>
+      <text x="272" y="238" fill="#F9AB00">·</text>
+      <text x="294" y="238" fill="#4285F4">22</text><text x="318" y="238" fill="#C6CFDB">glossary</text>
+      <text x="414" y="238" fill="#F9AB00">·</text>
+      <text x="436" y="238" fill="#C6CFDB">MIT</text>
+    </g>
+
+    <!-- install cue, kept also in markdown -->
+    <rect x="0" y="272" width="418" height="44" rx="10" fill="#1A2230"/>
+    <text x="20" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#9FE0B0">npx skills add ifyour/gefei-seo-skill</text>
+  </g>
+
+  <!-- ===== right: KGR decision card (real project material) ===== -->
+  <g transform="translate(668 56)">
+    <rect width="470" height="288" rx="16" fill="#161D2A" stroke="#243044" stroke-width="1.5"/>
+
+    <!-- search bar motif -->
+    <rect x="28" y="28" width="414" height="44" rx="22" fill="#10151F" stroke="#2C3950" stroke-width="1.5"/>
+    <circle cx="52" cy="50" r="8" fill="none" stroke="#4285F4" stroke-width="2.5"/>
+    <line x1="58" y1="56" x2="66" y2="64" stroke="#4285F4" stroke-width="2.5"/>
+    <text x="80" y="57" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#C6CFDB">allintitle:关键词</text>
+
+    <!-- KGR formula -->
+    <text x="28" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" fill="#F2F5F9">KGR = 标题结果数 ÷ 月搜索量</text>
+
+    <!-- verdict rows -->
+    <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20">
+      <rect x="28" y="146" width="414" height="40" rx="8" fill="#1E3A1F"/>
+      <text x="44" y="172" fill="#9FE0B0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">&lt; 0.25</text>
+      <text x="150" y="172" fill="#9FE0B0">立即做页面（竞争池空）</text>
+
+      <rect x="28" y="192" width="414" height="40" rx="8" fill="#3A3318"/>
+      <text x="44" y="218" fill="#F9D48A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.25–1</text>
+      <text x="150" y="218" fill="#F9D48A">观察，进入候选清单</text>
+
+      <rect x="28" y="238" width="414" height="40" rx="8" fill="#3A1E22"/>
+      <text x="44" y="264" fill="#F0A3A3" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">&gt; 1</text>
+      <text x="150" y="264" fill="#F0A3A3">放弃，换下一个词</text>
+    </g>
+  </g>
+
+  <!-- motif echo: rank chip bottom right -->
+  <g transform="translate(1100 366)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">
+    <text x="0" y="0" text-anchor="end" fill="#5C6779">数据来源见文末</text>
+    <text x="8" y="0" fill="#F9AB00">#1</text>
+  </g>
+</svg>
