@@ -1,0 +1,27 @@
+# Glossary — Google SEO 实战教程
+
+- **AI SEO** — 面向 ChatGPT/Perplexity 等 AI 搜索的优化：布局高权重平台让品牌被引用，而非排名网页（ch12）
+- **Allintitle** — Google 搜索指令，返回标题含关键词的页面数；KGR 公式分子（ch04, ch18）
+- **Canonical** — 告诉 Google 规范 URL 的标签；可指向自己，用绝对 URL（ch06）
+- **CDSD** — 搜索量来自共识（Concurrent Search Demand）：新需求 + 先发 SEO = 最小竞争拿大流量（ch09）
+- **Crawl Budget（爬虫预算）** — Google 分配给每个站的抓取资源；受权重、速度、更新频率、内容质量影响（ch02）
+- **Core Web Vitals** — LCP（加载）、FID（交互）、CLS（稳定）三指标（ch06, ch16, ch19）
+- **CSG/CSR（前端渲染）** — 纯客户端渲染 SPA；Googlebot 对小站不执行 JS = 空 body，新站致命（ch02, ch06）
+- **DR（Domain Rating）** — Ahrefs 域名权重评分；新站定义之一为 DR<40（ch09）
+- **Hreflang** — 多语言页面互指标签；必须含 x-default、绝对 URL、正确 ISO 639-1 语言码（ch10）
+- **KGR（Keyword Golden Ratio）** — allintitle 结果数 ÷ 月搜索量；<0.25 易排名，>1 竞争激烈（ch04, ch18）
+- **KD（Keyword Difficulty）** — 关键词难度 0–100；但关键词"年龄"同样重要，6 个月新词 KD50 优于 1 年老词 KD30（ch04）
+- **LiveBlogPosting** — 结构化数据类型；获"直播"徽章提升 CTR，时效内容用（ch22）
+- **Nofollow** — 链接属性；现在也传递部分权重，"有就要"；全 dofollow 组合反而可疑（ch03, ch07）
+- **长尾词** — 搜索量小、竞争低、转化高的具体词；新站优先（ch04）
+- **蜜月期** — 新站上线 1–3 个月的临时排名红利；结束后回落是正常非惩罚（ch13）
+- **反向索引** — 词→文档的映射结构，快速检索的基础（ch02）
+- **程序化 SEO** — 模板+数据批量生成页面；新站禁止，100 页进前 20 后小批量起步（ch09）
+- **手动惩罚** — GSC 有通知的惩罚；提交复审后 2–4 周恢复（ch13）
+- **搜索意图四分** — 信息型 / 导航型 / 商业型 / 交易型；先看 SERP 确认再产内容（ch04, ch18）
+- **TDH** — Title/Description/Headings 三件套，取代已死的 TDK（Keywords meta）（ch03, ch05）
+- **SSR（服务端渲染）** — Next.js/Nuxt 等服务端输出 HTML；SEO 必选（ch06）
+- **子目录 vs 子域名** — 同主题多语言用子目录（继承权重）；完全不同关键词领域才用子域名（ch10, ch11）
+- **x-default** — Hreflang 默认语言版本标记，必填（ch10）
+- **新鲜度红利** — 每年至少更新一次的页面平均提升 4.6 个 SERP 位次（ch03）
+- **软 404** — 返回 200 但内容不存在的页面；GSC 索引报告常见问题（ch06, ch16）
