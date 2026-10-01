@@ -4,7 +4,7 @@
 
 # gefei-seo-skill
 
-《Google SEO 实战教程》Agent Skill — 一个可被 AI 编程助手（Claude Code、Codex、OpenCode 等）加载的 SEO 知识库。基于 [Jayin/gefei-seo-cookbook](https://github.com/Jayin/gefei-seo-cookbook) 的 `seo-book/`（MIT 授权）提炼。
+《Google SEO 实战教程》Agent Skill — 一个可被 AI 编程助手（Claude Code、Codex、OpenCode 等）加载的 SEO 知识库。
 
 ## 安装
 
@@ -69,5 +69,5 @@ npx skills add https://github.com/ifyour/gefei-seo-skill --skill gefei-seo
 ## 许可与数据来源
 
 - 本仓库代码与整理内容以 **MIT** 许可发布。
-- 知识内容提炼自 MIT 授权的 [Jayin/gefei-seo-cookbook](https://github.com/Jayin/gefei-seo-cookbook)（哥飞公众号文章整理），来源仓库见其 README。
+- 知识内容来自 [Jayin/gefei-seo-cookbook](https://github.com/Jayin/gefei-seo-cookbook)。
 - 书中数字（权重百分比、成本等）为写作时点数据，可能过期，请以 Google 官方文档与实时数据为准。
