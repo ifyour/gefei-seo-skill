@@ -26,18 +26,18 @@
     <text x="0" y="128" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="24" fill="#C6CFDB">
       把哥飞的 SEO 实战经验，变成 agent 可调用的知识库
     </text>
-    <text x="0" y="166" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="21" fill="#8B96A8">
+    <text x="0" y="170" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="21" fill="#8B96A8">
       关键词研究 · 页面与技术 SEO · 外链节奏 · 程序化 SEO · AI 搜索
     </text>
 
-    <text x="0" y="238" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="21" fill="#8B96A8">
+    <text x="0" y="212" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="19" fill="#5C6779">
       安装命令见下方 README · 数据来源见文末
     </text>
   </g>
 
   <!-- ===== right: KGR decision card (real project material) ===== -->
-  <g transform="translate(668 56)">
-    <rect width="470" height="288" rx="16" fill="#161D2A" stroke="#243044" stroke-width="1.5"/>
+  <g transform="translate(664 56)">
+    <rect width="472" height="288" rx="16" fill="#161D2A" stroke="#243044" stroke-width="1.5"/>
 
     <!-- search bar motif -->
     <rect x="28" y="28" width="414" height="44" rx="22" fill="#10151F" stroke="#2C3950" stroke-width="1.5"/>
@@ -64,8 +64,4 @@
     </g>
   </g>
 
-  <!-- motif echo: rank chip bottom right -->
-  <g transform="translate(1100 366)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">
-    <text x="0" y="0" text-anchor="end" fill="#5C6779">22 chapters · 11 patterns · MIT</text>
-  </g>
 </svg>
