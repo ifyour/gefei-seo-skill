@@ -1,8 +1,8 @@
-[English](README.md) · 简体中文
-
 <p align="center">
   <img src="./assets/readme/hero.svg" width="100%" alt="gefei-seo-skill — 把哥飞的 SEO 实战经验变成 agent 可调用的知识库，含 KGR 决策卡片示例">
 </p>
+
+<p align="center"><sub><a href="README.md">English</a> · 简体中文</sub></p>
 
 # gefei-seo-skill
 

@@ -1,8 +1,8 @@
-English · [简体中文](README.zh-CN.md)
-
 <p align="center">
   <img src="./assets/readme/hero.svg" width="100%" alt="gefei-seo-skill — turns gefei's hands-on Google SEO experience into an agent-ready knowledge base, with a KGR decision card example">
 </p>
+
+<p align="center"><sub>English · <a href="README.zh-CN.md">简体中文</a></sub></p>
 
 # gefei-seo-skill
 
